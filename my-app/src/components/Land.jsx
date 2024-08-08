@@ -1,4 +1,7 @@
 import React from 'react'
+import MessageIcon from '@mui/icons-material/Message';
+import GroupIcon from '@mui/icons-material/Group';
+import SpeedIcon from '@mui/icons-material/Speed';
 import '../css/Land.css'
 const Land = () => {
   return (
@@ -23,6 +26,37 @@ const Land = () => {
 <img className="image"src={"https://placehold.co/600x400"}/>
       </div>
     
+    </div>
+    <div className='feat-general'>
+      <div className='feat-title-cont'>
+    <h1 className='features-title'>Features</h1>
+    </div>
+      <div className='features-cont'>
+      <div className='indiv-item'>
+    <div className='border-icon'>
+      <MessageIcon style={{fontSize:'5em', color:'white'}}/>
+      </div>
+      <div className="feat-text-cont">
+      <p className="features-text">Real time instant messaging</p>
+      </div>
+  
+    </div>
+    <div className='indiv-item'>
+      <div className='border-icon'><GroupIcon style={{fontSize:'5em', color:'white'}}/>
+      </div>
+      <div className="feat-text-cont">
+      <p className="features-text">Group Chat support</p>
+      </div>
+ 
+  
+      </div>
+      <div className='indiv-item'>
+      <div className='border-icon'><SpeedIcon style={{fontSize:'5em', color:'white'}}/>
+      </div>
+      <div className="feat-text-cont"><p className="features-text">Fast and Lightweight</p></div>
+     
+      </div>
+      </div>
     </div>
     <div className="footer">
       <p>&copy; 2024 Chat Application. All rights reserved.</p>
